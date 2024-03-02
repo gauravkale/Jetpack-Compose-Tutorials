@@ -9,6 +9,7 @@ import androidx.compose.ui.res.stringResource
 import com.gaurav.jetpack_compose_tutorials.model.TutorialSectionModel
 import com.gaurav.jetpack_compose_tutorials.R
 import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_1Screen
+import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_2Screen
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GestureListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GraphicsListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.LayoutListColor
@@ -48,7 +49,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create and modify Surface to draw background for Composables," +
                 " add click action to any composable. Set weight or offset modifiers.",
         action = {
-//            Tutorial1_2Screen()
+            Tutorial1_2Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
