@@ -8,6 +8,7 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.res.stringResource
 import com.gaurav.jetpack_compose_tutorials.model.TutorialSectionModel
 import com.gaurav.jetpack_compose_tutorials.R
+import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_1Screen
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GestureListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GraphicsListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.LayoutListColor
@@ -29,7 +30,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
     val tutorial1_1 = TutorialSectionModel(
         title = stringResource(R.string.title1_1),
         action = {
-//            Tutorial1_1Screen()
+            Tutorial1_1Screen()
         },
         description = "Create Rows, Columns and Box, how to add modifiers to " +
                 "composables. Set padding, margin, alignment other properties of composables.",
