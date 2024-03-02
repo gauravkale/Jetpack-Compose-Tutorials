@@ -296,6 +296,17 @@ fun ComingSoonScreen() {
     }
 }
 
+@Composable
+fun ComingSoonScreen(onBack: ()-> Unit) {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Text(text = "⚠️ Under Construction!", fontSize = 28.sp, fontWeight = FontWeight.Bold)
+    }
+}
+
 @ExperimentalAnimationApi
 @Composable
 fun TutorialListContent(

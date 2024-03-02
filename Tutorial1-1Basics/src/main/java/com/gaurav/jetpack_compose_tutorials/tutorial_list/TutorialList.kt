@@ -6,6 +6,7 @@ import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.res.stringResource
+import com.gaurav.jetpack_compose_tutorials.ComingSoonScreen
 import com.gaurav.jetpack_compose_tutorials.model.TutorialSectionModel
 import com.gaurav.jetpack_compose_tutorials.R
 import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_1Screen
@@ -66,7 +67,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Text component with different properties such as " +
                 "color, background, font weight, family, style, spacing and others.",
         action = {
-//            Tutorial2_1Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -82,7 +83,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Button with text and/or with image, Floating Action Button " +
                 ", or Chips. Modify properties of buttons such as color, text, or state.",
         action = {
-//            Tutorial2_2Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -99,7 +100,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 " colors, state, icons, VisualTransformations for phone or " +
                 "credit card, and IME actions.",
         action = {
-//            Tutorial2_3Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -116,7 +117,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Image to display images, set image and crop styles. " +
                 "Change shape of Image or apply ColorFilter and PorterDuff modes.",
         action = {
-//            Tutorial2_4Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -131,7 +132,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_5_1),
         description = "LazyColumn is counterpart of vertical RecyclerView in Compose",
         action = {
-//            Tutorial2_5Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -145,7 +146,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_5_2),
         description = "LazyColumn scroll state and modify dynamic list",
         action = {
-//            Tutorial2_5Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -161,7 +162,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_5_3),
         description = "LazyColumn is counterpart of horizontal RecyclerView in Compose",
         action = {
-//            Tutorial2_5Screen3()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -175,7 +176,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_5_4),
         description = "LazyColumn with StickyHeaders",
         action = {
-//            Tutorial2_5Screen4()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -190,7 +191,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_5_5),
         description = "Grid style item display",
         action = {
-//            Tutorial2_5Screen5()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -205,7 +206,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_5_6),
         description = "LazyGridLayout with dynamic height",
         action = {
-//            Tutorial2_5Screen6()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -221,7 +222,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create one-line, two-line, three-line or combine other " +
                 "components to build list items using built-in ListItem component",
         action = {
-//            Tutorial2_5Screen7()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -236,7 +237,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Get meta data about LazyRow/Column by using LazyLayoutState's " +
                 "LazyListLayoutInfo",
         action = {
-//            Tutorial2_5Screen8()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -252,7 +253,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "The top app bar displays information and actions " +
                 "relating to the current screen.",
         action = {
-//            Tutorial2_6Screen(onBack)
+            ComingSoonScreen(onBack)
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -272,7 +273,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "BottomNavigation should contain multiple BottomNavigationItems, " +
                 "each representing a singular destination.",
         action = {
-//            Tutorial2_7Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -286,7 +287,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Material Design bottom app bar.\n" +
                 "A bottom app bar displays navigation and key actions at the bottom of screens.",
         action = {
-//            Tutorial2_8Screen(onBack)
+            ComingSoonScreen(onBack)
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -299,7 +300,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Navigate using side navigation. Navigate after popping from stack. " +
                 "Open or close drawer with scaffoldState.drawerState",
         action = {
-//            Tutorial2_9Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -315,7 +316,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "an app’s content with a scrim. They are elevated above most of " +
                 "the app’s UI and don’t affect the screen’s layout grid.",
         action = {
-//            Tutorial2_9Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -328,7 +329,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_9_3),
         description = "ModalDrawer sample with Scaffold. ModalDrawer is inside content Scaffold.",
         action = {
-//            Tutorial2_9Screen3()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -343,7 +344,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Another ModalDrawer sample with Scaffold. Scaffold is " +
                 "inside content of ModalDrawer",
         action = {
-//            Tutorial2_9Screen4()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -358,7 +359,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create bottom sheet using BottomSheetScaffold and " +
                 "rememberBottomSheetScaffoldState",
         action = {
-//            Tutorial2_10Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -373,7 +374,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create modal bottom sheet using BottomSheetScaffold and " +
                 "rememberBottomSheetScaffoldState",
         action = {
-//            Tutorial2_10Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -387,7 +388,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Bottom navigation drawers are modal drawers that are " +
                 "anchored to the bottom of the screen.",
         action = {
-//            Tutorial2_10Screen3()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -399,7 +400,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_10_4),
         description = "BottomDrawer with BottomAppBar.",
         action = {
-//            Tutorial2_10Screen4()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -413,7 +414,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "A backdrop appears behind all other surfaces in an app, displaying " +
                 "contextual and actionable content.",
         action = {
-//            Tutorial2_10Screen5()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -426,7 +427,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Samples for Snackbar, ProgressIndicator, Slider, CheckBox, " +
                 "TriStateCheckBox, RadioButton with groups, and Switch.",
         action = {
-//            Tutorial2_11Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -446,7 +447,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Dialog, and AlertDialogs with standard and custom layouts. " +
                 "Implement on dismiss logic and get result when dialog is closed.",
         action = {
-//            Tutorial2_12Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -460,7 +461,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_13),
         description = "Create a composable that can be dismissed by swiping left or right.",
         action = {
-//            Tutorial2_13Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -472,7 +473,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         title = stringResource(R.string.title2_14),
         description = "Lazy column compose that has checkbox where items can be checked and unchecked",
         action = {
-//            Tutorial2_14Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -525,7 +526,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom modifiers using layout, Measurable, Constraint, Placeable," +
                 " and LayoutModifier.",
         action = {
-//            Tutorial3_1Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -543,7 +544,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.onGloballyPositioned to get position of a Composable" +
                 "in parent, root or window.",
         action = {
-//            Tutorial3_1Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -558,7 +559,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.offset{} and Modifier.graphicsLayer{} to scale, translate or " +
                 "change other properties of a Composable",
         action = {
-//            Tutorial3_1Screen3()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -576,7 +577,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "according to the available space, based on the incoming constraints " +
                 "or the current LayoutDirection.",
         action = {
-//            Tutorial3_1Screen4()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -589,7 +590,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_1_5),
         description = "In this example Constraints of different size modifiers are observed",
         action = {
-//            Tutorial3_1Screen5()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -607,7 +608,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Modifier.size.requiredSize or other combination of size modifiers effect final " +
                 "Constraints.",
         action = {
-//            Tutorial3_1Screen6()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -626,7 +627,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.wrapContentSize/Width/Height to use content constraints " +
                 "instead of Constraints forced by parent.",
         action = {
-//            Tutorial3_1Screen7()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -642,7 +643,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.layout to create LayoutModifier to measure with Constraints " +
                 "and place Placeables based on which order Modifier.layout is assigned.",
         action = {
-//            Tutorial3_1Screen8()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -660,7 +661,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom layout using using layout, " +
                 "Measurable, Constraint, Placeable.",
         action = {
-//            Tutorial3_2Screen0()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -677,7 +678,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom layout using using layout, " +
                 "Measurable, Constraint, Placeable.",
         action = {
-//            Tutorial3_2Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -694,7 +695,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom layout using using MeasurePolicy " +
                 "and use intrinsic dimensions.",
         action = {
-//            Tutorial3_2Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -715,7 +716,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "and observe how constraints" +
                 "effect dimensions of Placeables and parent Composable.",
         action = {
-//            Tutorial3_2Screen3()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -733,7 +734,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 ", and change layout width out of Constraints bounds to observe how a Composable" +
                 " is laid out",
         action = {
-//            Tutorial3_2Screen4()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -750,7 +751,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Update default constraints with or out of bounds of original Constraints" +
                 ", and pass Constraints to content to change it's Constraints from size modifier",
         action = {
-//            Tutorial3_2Screen5()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -767,7 +768,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Inspect how Constraints and assigned width of a layout effects " +
                 "position of a sibling Composable",
         action = {
-//            Tutorial3_2Screen6()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -784,7 +785,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Observe how using infinite constraints incorrectly leads to" +
                 "exceptions.",
         action = {
-//            Tutorial3_2Screen7()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -801,7 +802,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Measurable inside parent bounds by creating padding Modifiers " +
                 "with different variations",
         action = {
-//            Tutorial3_2Screen8()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -818,7 +819,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Constraints to measure measurables with Constraints.offset and " +
                 "Constraints.constrainWidth to limit maximum width or available.",
         action = {
-//            Tutorial3_2Screen9()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -837,7 +838,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Constraints.constrainWidth to limit maximum width or available " +
                 "space for Placeable.",
         action = {
-//            Tutorial3_2Screen10()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -853,7 +854,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_3_1),
         description = "Add custom modifiers to Composable inside a custom layout using it's scope.",
         action = {
-//            Tutorial3_3Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -875,7 +876,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "LayoutModifier is placed. This allows child LayoutModifier " +
                 "to adjust its own placement based on where the parent is.",
         action = {
-//            Tutorial3_3Screen3()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -893,7 +894,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_3_4),
         description = "Use Modifier.onPlaced to observe alignment changes.",
         action = {
-//            Tutorial3_3Screen4()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -911,7 +912,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_3_5),
         description = "Use Modifier.onPlaced to observe alignment animation.",
         action = {
-//            Tutorial3_3Screen5()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -930,7 +931,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.layoutId to get a measurable, and use it to measure another" +
                 "measurable to match dimensions.",
         action = {
-//            Tutorial3_4Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -951,7 +952,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "during the measurement as " +
                 "params for the composition of the children.",
         action = {
-//            Tutorial3_5Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -970,7 +971,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "time and message read " +
                 "status layout right or bottom based on message width.",
         action = {
-//            Tutorial3_6Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -988,7 +989,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "name tag resized to longest " +
                 "sibling using SubcomposeColumn from previous examples to have whole layout.",
         action = {
-//            Tutorial3_6Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1005,7 +1006,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_7_1),
         description = "Examine how Composition and Layout phases are called on recomposition.",
         action = {
-//            Tutorial3_7Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1023,7 +1024,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_7_2),
         description = "Examine how Composition and Layout phases are called on recomposition.",
         action = {
-//            Tutorial3_7Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1042,7 +1043,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Detect percentage of visibility of a Composable using Modifier.onPlaced " +
                 "inside Column with vertical scroll or LazyColumn.",
         action = {
-//            Tutorial3_9Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1057,7 +1058,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_10),
         description = "Detect position in parent and center an item while its parent is scrolled.",
         action = {
-//            Tutorial3_10Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1111,7 +1112,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "This tutorial shows how remember and mutableState " +
                 "effect recomposition and states.",
         action = {
-//            Tutorial4_1Screen1()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1127,7 +1128,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "This tutorial shows how SnapshotMutationPolicy effects whether " +
                 "recomposition should be triggered or not.",
         action = {
-//            Tutorial4_1Screen2()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1144,7 +1145,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "This tutorial shows how recomposition happens for flat or hierarchical " +
                 "designs when Composables are in separate functions or stacked together.",
         action = {
-//            Tutorial4_2_1Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1159,7 +1160,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_2_2),
         description = "This tutorial show how hierarchy of Composables effect Smart Composition",
         action = {
-//            Tutorial4_2_2Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1179,7 +1180,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "applied at (re)composition.",
 
         action = {
-//            Tutorial4_2_3Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1198,7 +1199,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "if all of the parameters are equal with their previous values.",
 
         action = {
-//            Tutorial4_2_4Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1217,7 +1218,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "be made stable with @Immutable annotation",
 
         action = {
-//            Tutorial4_2_5Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1237,7 +1238,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "be made stable with @Stable annotation",
 
         action = {
-//            Tutorial4_2_6Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1257,7 +1258,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "recomposition even if the value doesn't change",
 
         action = {
-//            Tutorial4_2_7Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1277,7 +1278,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "restartable properties of a Composable",
 
         action = {
-//            Tutorial4_2_8Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1298,7 +1299,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "Remember produce and remember a new value by calling calculation when " +
                 "key(s) are updated. Update calculations with buttons.",
         action = {
-//            Tutorial4_3Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1313,7 +1314,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "Create a custom remember and custom component to have badge that changes " +
                 "its shape based on properties set by custom rememberable.",
         action = {
-//            Tutorial4_4Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1330,7 +1331,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "and rememberUpdatedState and side-effect functions such as " +
                 "LaunchedEffect and DisposableEffect",
         action = {
-//            Tutorial4_5_1Screen()
+            ComingSoonScreen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1347,6 +1348,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_5_2),
         description = "Use SideEffect, derivedStateOf, produceState and snapshotFlow.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_5_2Screen()
         },
         tags = listOf(
@@ -1364,6 +1366,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_6),
         description = "Recomposition of Modifiers based on states or lambdas they read.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_6Screen()
         },
         tags = listOf(
@@ -1380,6 +1383,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "This tutorial changes color or/and offset to display frame phases" +
                 "Composition->Layout->Draw in one sample.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_7_1Screen()
         },
         tags = listOf(
@@ -1398,6 +1402,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "This tutorial shows Compose phases such as Composition, Layout, and Draw" +
                 "are set based when a state is read.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_7_2Screen()
         },
         tags = listOf(
@@ -1415,6 +1420,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_7_3),
         description = "This tutorial state reads or lambdas are passed to parents.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_7_3Screen()
         },
         tags = listOf(
@@ -1435,6 +1441,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "state and nodes created in a previous call " +
                 "to the new location it is called.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_10Screen1()
         },
         tags = listOf(
@@ -1450,6 +1457,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "Use movableContentOf to inspect effects on Composables when items from " +
                 "a list while are deleted",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_10Screen2()
         },
         tags = listOf(
@@ -1465,6 +1473,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_10_3),
         description = "Use movableContentOf to inspect state after change in a list",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_10Screen3()
         },
         tags = listOf(
@@ -1480,6 +1489,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_11_1),
         description = "Use SnapshotStateList to trigger recomposition only for updated item",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_11Screen1()
         },
         tags = listOf(
@@ -1499,6 +1509,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         description = "Use SnapshotStateList to trigger recomposition only for updated item and " +
                 "ViewModel callback to have stable lambda.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_11Screen2()
         },
         tags = listOf(
@@ -1519,6 +1530,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
                 "ViewModel callback to have stable lambda and SnapshotStateList for stability " +
                 "in a scope.",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_11Screen3()
         },
         tags = listOf(
@@ -1538,6 +1550,7 @@ fun createStateTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_4_11_6),
         description = "Detect scroll direction of a LazyColumn using LazyListState",
         action = {
+            ComingSoonScreen()
 //            Tutorial4_11Screen6()
         },
         tags = listOf(
@@ -1590,6 +1603,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
                 "Interaction source to listen for click state" +
                 "or set state of other composable.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_1Screen1()
         },
         tags = listOf(
@@ -1607,6 +1621,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Use Interaction source to collect interactions or change scale " +
                 "of Composable's based on interaction state.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_1Screen2()
         },
         tags = listOf(
@@ -1622,6 +1637,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Use Interaction source to listen for click state" +
                 "or set state of other composable.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_1Screen3()
         },
         tags = listOf(
@@ -1640,6 +1656,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
                 "detectHorizontalDrag, and detectVerticalDrag" +
                 "for listening drag gestures.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_2Screen()
         },
         tags = listOf(
@@ -1661,6 +1678,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Use PointerInput to listen for detectTransformGesture " +
                 "to get centroid, pan, zoom and rotate params.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_3Screen()
         },
         tags = listOf(
@@ -1683,6 +1701,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
                 "awaitTouchSlopOrCancellation to check whether pointer crosses " +
                 "touch slap threshold to start drag motion",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_4Screen1()
         },
         tags = listOf(
@@ -1703,6 +1722,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-4-2 AwaitPointerEventScope2",
         description = "Use AwaitPointerEventScope to get ",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_4Screen2()
         },
         tags = listOf(
@@ -1725,6 +1745,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Use AwaitPointerEventScope to calculate centroid " +
                 "position and size, zoom, pan, and rotation.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_4Screen3()
         },
         tags = listOf(
@@ -1743,6 +1764,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Use AwaitPointerEventScope to create press and long press start and end " +
                 "callbacks.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_4Screen4()
         },
         tags = listOf(
@@ -1760,6 +1782,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Combine pointerInput function and observe how gestures are performed " +
                 "when combined with other pointerInput functions",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_5Screen1()
         },
         tags = listOf(
@@ -1775,6 +1798,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Consume different type of touch events such as down, " +
                 "position change and check if events are consumed.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen1()
         },
         tags = listOf(
@@ -1793,6 +1817,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Consume different type of touch events in Composable in an hierarchy" +
                 "to display gesture propagation between parent and children with MOVE gestures.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen2()
         },
         tags = listOf(
@@ -1812,6 +1837,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Consume different type of touch events in Composable in an hierarchy" +
                 "to display gesture propagation between parent and children with DRAG gestures.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen3()
         },
         tags = listOf(
@@ -1832,6 +1858,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Consume events to rotate, zoom, move or apply drag or " +
                 "move events on Composables.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen4()
         },
         tags = listOf(
@@ -1851,6 +1878,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Change PointerEventPass to change direction of event propagation with " +
                 "child parent relationship.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen5()
         },
         tags = listOf(
@@ -1869,6 +1897,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Change PointerEventPass to change direction of event propagation " +
                 "with multiple PointerInput.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen6()
         },
         tags = listOf(
@@ -1887,6 +1916,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Change PointerEventPass to change direction of" +
                 " drag or touch gestures.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen7()
         },
         tags = listOf(
@@ -1904,6 +1934,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-6-8 PointerEventPass4",
         description = "Change PointerEventPass to change drag and touch order.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen8()
         },
         tags = listOf(
@@ -1922,6 +1953,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Change PointerEventPass with awaitPointerEvent to get pinch/zoom " +
                 "gesture or click/long lick first and consume before click based on pass.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_6Screen9()
         },
         tags = listOf(
@@ -1940,6 +1972,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-7-1 Ripple Gesture Events",
         description = "Implement ripple effect on touch position with gestures.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_7Screen1()
         },
         tags = listOf(
@@ -1955,6 +1988,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-8-1 Drag Modifier",
         description = "Use drag Modifier, rememberDraggableState",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_8Screen1()
         },
         tags = listOf(
@@ -1970,6 +2004,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Use swipe modifier, rememberSwipeableState, FractionalThreshold to " +
                 "create swipeable Composables.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_8Screen2()
         },
         tags = listOf(
@@ -1985,6 +2020,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-9-1 Scrollable Modifier",
         description = "Implement scrolling behavior.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_9Screen1()
         },
         tags = listOf(
@@ -2000,6 +2036,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Implement nested scrolling using only vertical scrolling " +
                 "and rememberScrollState.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_9Screen2()
         },
         tags = listOf(
@@ -2014,6 +2051,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "This tutorial shows how and when functions, such as onPreScroll, of " +
                 "NestedScrollConnection called when Modifier.nestedScroll is used.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_9Screen3()
         },
         tags = listOf(
@@ -2030,6 +2068,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
                 "(which doesn't have nested scroll build in by default)" +
                 "and add nested scroll support our component that contains draggable",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_9Screen5()
         },
         tags = listOf(
@@ -2047,6 +2086,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Create a collapsing TopAppBar using Modifier.nestedScroll " +
                 "and NestedScrollConnection",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_9Screen6()
         },
         tags = listOf(
@@ -2062,6 +2102,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         description = "Create a collapsing TopAppBar using Modifier.nestedScroll " +
                 "and NestedScrollConnection and change scroll with ScrollState",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_9Screen7()
         },
         tags = listOf(
@@ -2077,6 +2118,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-10-1 Image Touch Detection",
         description = "Detect touch position on image and get color at touch position.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_10_1Screen()
         },
         tags = listOf(
@@ -2091,6 +2133,7 @@ fun createGestureTutorialList(): List<TutorialSectionModel> {
         title = "5-11 Zoomable LazyColum",
         description = "Zoom images inside a LazyColum.",
         action = {
+            ComingSoonScreen()
 //            Tutorial5_11Screen()
         },
         tags = listOf(
@@ -2149,6 +2192,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use canvas draw basic shapes like line, circle, rectangle," +
                 "and points with different attributes such as style, stroke cap, brush.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen1()
         },
         tags = listOf(
@@ -2166,6 +2210,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use canvas to draw arc, with PathEffect, StrokeCap, " +
                 "StrokeJoin, miter and other attributes and draw images with src, dst attributes",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen2()
         },
         tags = listOf(
@@ -2183,6 +2228,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use canvas to draw path using absolute and relative positions, adding " +
                 "arc to path, drawing custom paths, progress, polygons, quads, and cubic. ",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen3()
         },
         tags = listOf(
@@ -2201,6 +2247,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use canvas to clip paths, or canvas using path, or rectangle with " +
                 "operations such as Difference, Intersect, Union, Xor, or ReverseDifference.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen4()
         },
         tags = listOf(
@@ -2221,6 +2268,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use canvas to flatten Android Path to path segments and display " +
                 "PathSegment start and/or end points.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen5()
         },
         tags = listOf(
@@ -2242,6 +2290,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
                 "chainPathEffect and  stompedPathEffect" +
                 "to draw shapes or add path effects around Composables.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen6()
         },
         tags = listOf(
@@ -2259,6 +2308,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-1-7 Canvas Stroke Change",
         description = "Draw stroke between edges of Canvas, drawing inwards and outwards direction.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_1Screen7()
         },
         tags = listOf(
@@ -2274,6 +2324,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use blend(Porter-Duff) modes to change drawing source/destination " +
                 "or clip based on blend mode, and manipulate pixels.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_2Screen1()
         },
         tags = listOf(
@@ -2293,6 +2344,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
                 "to change drawing source/destination " +
                 "or clip based on blend mode, and manipulate pixels.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_2Screen2()
         },
         tags = listOf(
@@ -2310,6 +2362,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use blend(Porter-Duff) to create multi colored VectorDrawables or" +
                 " VectorDrawables with fill/empty animations",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_2Screen3()
         },
         tags = listOf(
@@ -2326,6 +2379,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-4-0 Canvas Touch Events",
         description = "Test touch down, move and up events and invocations on Canvas",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_4Screen0()
         },
         tags = listOf(
@@ -2349,6 +2403,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
                 "drag gestures with properties such as color, stroke width," +
                 " or draw on image.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_4Screen1()
         },
         tags = listOf(
@@ -2373,6 +2428,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
                 "paths to have erase, undo, redo actions " +
                 "and set properties for each path separately.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_4Screen2()
         },
         tags = listOf(
@@ -2394,6 +2450,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Detect touch position on canvas and if it's inside bounds of any " +
                 "drawing, circle in this sample, move it",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_4Screen3()
         },
         tags = listOf(
@@ -2414,6 +2471,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Color Picker that calculates angle from center and gets a color " +
                 "using hue and returns a color as in HSL or RGB color model.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_5Screen()
         },
         tags = listOf(
@@ -2434,6 +2492,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Editable Composable that changes position and scale when touched and dragged" +
                 "from handles or changes position when touched inside.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_6Screen()
         },
         tags = listOf(
@@ -2454,6 +2513,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Create basic Gooey Effect with static circles " +
                 "and one with moves with touch",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_7Screen()
         },
         tags = listOf(
@@ -2473,6 +2533,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-8-1 Cutout Arc Shape",
         description = "Use Path.cubicTo, Path.arcTo to draw cutout shape.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_8Screen1()
         },
         tags = listOf(
@@ -2488,6 +2549,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use paint.asFrameworkPaint() to create blur effect to mimic neon glow " +
                 "and infinite animation to dim and glow infinitely",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_9Screen1()
         },
         tags = listOf(
@@ -2505,6 +2567,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Create ripple effect when user touches specific area using Animatable and" +
                 "keyFrames to create ripple effect",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_10Screen()
         },
         tags = listOf(
@@ -2526,6 +2589,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
                 "to erase and compare pixels with erased Bitmap to find out " +
                 "percentage of erased area.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_11Screen()
         },
         tags = listOf(
@@ -2543,6 +2607,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.drawWithContent, Modifier.composed, " +
                 "TextMeasurer to draw diagonal price tag with shimmer effect",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_12Screen()
         },
         tags = listOf(
@@ -2562,6 +2627,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-13 Timer with Border",
         description = "Use Path segments to create path with progress to display remaining time",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_13Screen()
         },
         tags = listOf(
@@ -2578,6 +2644,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-14 Pie Chart with Text",
         description = "Draw pie chart with dividers, and text between angles.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_14Screen()
         },
         tags = listOf(
@@ -2593,6 +2660,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-15 Pie Chart with Touch Animation",
         description = "Animate Pie Chart on touch and get data of touched section.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_15Screen()
         },
         tags = listOf(
@@ -2609,6 +2677,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-16 Segmented Border",
         description = "Draw border that divides Composable into segments.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_16Screen()
         },
         tags = listOf(
@@ -2625,6 +2694,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Draw animated rainbow color border using BlendMode.SrcIn" +
                 "and Modifier.drawWithCache",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_17Screen()
         },
         tags = listOf(
@@ -2643,6 +2713,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-18 Shimmer Effect",
         description = "Draw shimmer Effect using Brush and infinite animation",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_18Screen()
         },
         tags = listOf(
@@ -2660,6 +2731,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-19 Custom Carousel",
         description = "Custom carousel with gestures",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_19Screen()
         },
         tags = listOf(
@@ -2676,6 +2748,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-20 PathParser and PathMeasure",
         description = "Create Path from string and animate segments via PathMeasure",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_20Screen()
         },
         tags = listOf(
@@ -2693,6 +2766,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-21 Constant Velocity Animation",
         description = "Create constant time animation.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_21Screen()
         },
         tags = listOf(
@@ -2708,6 +2782,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-22 Arc fill clock",
         description = "Create a clock and set time via LaunchedEffect.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_22Screen()
         },
         tags = listOf(
@@ -2724,6 +2799,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-23 Tab/Switch Animation",
         description = "Create a Tab/Switch with fluent blending text and shadow.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_23Screen()
         },
         tags = listOf(
@@ -2740,6 +2816,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         description = "Animate projection of rotating circle between inner and " +
                 "outer projection with lerp function.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_24Screen()
         },
         tags = listOf(
@@ -2755,6 +2832,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-25 BeforeAfter Layout",
         description = "Create animatable BeforeAfter layout with Generic or BlendMode.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_25Screen()
         },
         tags = listOf(
@@ -2771,6 +2849,7 @@ fun createGraphicsTutorialList(): List<TutorialSectionModel> {
         title = "6-29 Pie Chart with Tool tip",
         description = "Animate Pie Chart with tool tip.",
         action = {
+            ComingSoonScreen()
 //            Tutorial6_29ToolTipPieChart()
         },
         tags = listOf(
