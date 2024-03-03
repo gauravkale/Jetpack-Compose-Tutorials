@@ -14,6 +14,7 @@ import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_2Screen
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_1Screen
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_2Screen
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_3Screen
+import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_4Screen
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GestureListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GraphicsListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.LayoutListColor
@@ -120,8 +121,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Image to display images, set image and crop styles. " +
                 "Change shape of Image or apply ColorFilter and PorterDuff modes.",
         action = {
-            ComingSoonScreen()
-//            Tutorial2_4Screen()
+            Tutorial2_4Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
