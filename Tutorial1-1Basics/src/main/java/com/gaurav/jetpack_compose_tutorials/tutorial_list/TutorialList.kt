@@ -11,6 +11,8 @@ import com.gaurav.jetpack_compose_tutorials.model.TutorialSectionModel
 import com.gaurav.jetpack_compose_tutorials.R
 import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_1Screen
 import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_2Screen
+import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_1Screen
+import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_2Screen
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GestureListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GraphicsListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.LayoutListColor
@@ -67,8 +69,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Text component with different properties such as " +
                 "color, background, font weight, family, style, spacing and others.",
         action = {
-            ComingSoonScreen()
-//            Tutorial2_1Screen()
+            Tutorial2_1Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -84,8 +85,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create Button with text and/or with image, Floating Action Button " +
                 ", or Chips. Modify properties of buttons such as color, text, or state.",
         action = {
-            ComingSoonScreen()
-//            Tutorial2_2Screen()
+            Tutorial2_2Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
