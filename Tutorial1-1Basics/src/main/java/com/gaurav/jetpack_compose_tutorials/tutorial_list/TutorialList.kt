@@ -68,6 +68,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "color, background, font weight, family, style, spacing and others.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_1Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -84,6 +85,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 ", or Chips. Modify properties of buttons such as color, text, or state.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_2Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -101,6 +103,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "credit card, and IME actions.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_3Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -118,6 +121,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "Change shape of Image or apply ColorFilter and PorterDuff modes.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_4Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -133,6 +137,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "LazyColumn is counterpart of vertical RecyclerView in Compose",
         action = {
             ComingSoonScreen()
+//            Tutorial2_5Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -147,6 +152,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "LazyColumn scroll state and modify dynamic list",
         action = {
             ComingSoonScreen()
+//            Tutorial2_5Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -163,6 +169,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "LazyColumn is counterpart of horizontal RecyclerView in Compose",
         action = {
             ComingSoonScreen()
+//            Tutorial2_5Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -177,6 +184,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "LazyColumn with StickyHeaders",
         action = {
             ComingSoonScreen()
+//            Tutorial2_5Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -207,6 +215,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "LazyGridLayout with dynamic height",
         action = {
             ComingSoonScreen()
+//            Tutorial2_5Screen6()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -238,6 +247,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "LazyListLayoutInfo",
         action = {
             ComingSoonScreen()
+//            Tutorial2_5Screen8()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -254,6 +264,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "relating to the current screen.",
         action = {
             ComingSoonScreen(onBack)
+//            Tutorial2_6Screen(onBack)
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -274,6 +285,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "each representing a singular destination.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_7Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -288,6 +300,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "A bottom app bar displays navigation and key actions at the bottom of screens.",
         action = {
             ComingSoonScreen(onBack)
+//            Tutorial2_8Screen(onBack)
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -301,6 +314,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "Open or close drawer with scaffoldState.drawerState",
         action = {
             ComingSoonScreen()
+//            Tutorial2_9Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -317,6 +331,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "the app’s UI and don’t affect the screen’s layout grid.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_9Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -330,6 +345,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "ModalDrawer sample with Scaffold. ModalDrawer is inside content Scaffold.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_9Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -345,6 +361,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "inside content of ModalDrawer",
         action = {
             ComingSoonScreen()
+//            Tutorial2_9Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -360,6 +377,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "rememberBottomSheetScaffoldState",
         action = {
             ComingSoonScreen()
+//            Tutorial2_10Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -375,6 +393,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "rememberBottomSheetScaffoldState",
         action = {
             ComingSoonScreen()
+//            Tutorial2_10Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -389,6 +408,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "anchored to the bottom of the screen.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_10Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -401,6 +421,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "BottomDrawer with BottomAppBar.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_10Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -415,6 +436,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "contextual and actionable content.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_10Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -428,6 +450,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "TriStateCheckBox, RadioButton with groups, and Switch.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_11Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -448,6 +471,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 "Implement on dismiss logic and get result when dialog is closed.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_12Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -462,6 +486,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Create a composable that can be dismissed by swiping left or right.",
         action = {
             ComingSoonScreen()
+//            Tutorial2_13Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -474,6 +499,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
         description = "Lazy column compose that has checkbox where items can be checked and unchecked",
         action = {
             ComingSoonScreen()
+//            Tutorial2_14Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -527,6 +553,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 " and LayoutModifier.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -545,6 +572,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "in parent, root or window.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -560,6 +588,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "change other properties of a Composable",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -578,6 +607,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "or the current LayoutDirection.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -591,6 +621,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "In this example Constraints of different size modifiers are observed",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -609,6 +640,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Constraints.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen6()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -628,6 +660,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "instead of Constraints forced by parent.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen7()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -644,6 +677,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "and place Placeables based on which order Modifier.layout is assigned.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_1Screen8()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -662,6 +696,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Measurable, Constraint, Placeable.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -679,6 +714,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Measurable, Constraint, Placeable.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -696,6 +732,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "and use intrinsic dimensions.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -717,6 +754,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "effect dimensions of Placeables and parent Composable.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -735,6 +773,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 " is laid out",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -752,6 +791,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 ", and pass Constraints to content to change it's Constraints from size modifier",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -769,6 +809,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "position of a sibling Composable",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen6()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -786,6 +827,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "exceptions.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen7()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -803,6 +845,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "with different variations",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen8()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -820,6 +863,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Constraints.constrainWidth to limit maximum width or available.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen9()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -839,6 +883,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "space for Placeable.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_2Screen10()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -855,6 +900,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Add custom modifiers to Composable inside a custom layout using it's scope.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_3Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -877,6 +923,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "to adjust its own placement based on where the parent is.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_3Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -895,6 +942,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.onPlaced to observe alignment changes.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_3Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -913,6 +961,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.onPlaced to observe alignment animation.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_3Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -932,6 +981,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "measurable to match dimensions.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_4Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -953,6 +1003,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "params for the composition of the children.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_5Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -972,6 +1023,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "status layout right or bottom based on message width.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_6Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -990,6 +1042,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "sibling using SubcomposeColumn from previous examples to have whole layout.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_6Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1007,6 +1060,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Examine how Composition and Layout phases are called on recomposition.",
         action = {
             ComingSoonScreen()
+//            Tutorial3_7Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
