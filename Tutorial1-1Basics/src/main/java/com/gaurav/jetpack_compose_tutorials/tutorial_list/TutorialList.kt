@@ -13,6 +13,7 @@ import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_1Screen
 import com.gaurav.jetpack_compose_tutorials.chapter1_basic.Tutorial1_2Screen
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_1Screen
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_2Screen
+import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_3Screen
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GestureListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GraphicsListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.LayoutListColor
@@ -102,8 +103,7 @@ fun createComponentTutorialList(onBack: () -> Unit): List<TutorialSectionModel> 
                 " colors, state, icons, VisualTransformations for phone or " +
                 "credit card, and IME actions.",
         action = {
-            ComingSoonScreen()
-//            Tutorial2_3Screen()
+            Tutorial2_3Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
