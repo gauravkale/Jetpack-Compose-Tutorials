@@ -39,10 +39,41 @@ import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_9
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_9Screen2
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_9Screen3
 import com.gaurav.jetpack_compose_tutorials.chapter2_material_widget.Tutorial2_9Screen4
+import com.gaurav.jetpack_compose_tutorials.chapter3_layout.Tutorial3_10Screen
+import com.gaurav.jetpack_compose_tutorials.chapter3_layout.Tutorial3_1Screen1
+import com.gaurav.jetpack_compose_tutorials.chapter3_layout.Tutorial3_1Screen2
+import com.gaurav.jetpack_compose_tutorials.chapter3_layout.Tutorial3_7Screen2
+import com.gaurav.jetpack_compose_tutorials.chapter3_layout.Tutorial3_9Screen
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GestureListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.GraphicsListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.LayoutListColor
 import com.gaurav.jetpack_compose_tutorials.ui.theme.StateListColor
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_1Screen3
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_1Screen4
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_1Screen5
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_1Screen6
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_1Screen7
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_1Screen8
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen0
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen1
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen10
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen2
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen3
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen4
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen5
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen6
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen7
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen8
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_2Screen9
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_3Screen1
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_3Screen3
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_3Screen4
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_3Screen5
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_4Screen
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_5Screen
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_6Screen1
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_6Screen2
+import com.smarttoolfactory.tutorial1_1basics.chapter3_layout.Tutorial3_7Screen1
 
 
 /**
@@ -554,8 +585,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom modifiers using layout, Measurable, Constraint, Placeable," +
                 " and LayoutModifier.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen1()
+            Tutorial3_1Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -573,8 +603,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.onGloballyPositioned to get position of a Composable" +
                 "in parent, root or window.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen2()
+            Tutorial3_1Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -589,8 +618,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.offset{} and Modifier.graphicsLayer{} to scale, translate or " +
                 "change other properties of a Composable",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen3()
+            Tutorial3_1Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -608,8 +636,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "according to the available space, based on the incoming constraints " +
                 "or the current LayoutDirection.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen4()
+            Tutorial3_1Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -622,8 +649,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_1_5),
         description = "In this example Constraints of different size modifiers are observed",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen5()
+            Tutorial3_1Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -641,8 +667,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Modifier.size.requiredSize or other combination of size modifiers effect final " +
                 "Constraints.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen6()
+            Tutorial3_1Screen6()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -661,8 +686,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.wrapContentSize/Width/Height to use content constraints " +
                 "instead of Constraints forced by parent.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen7()
+            Tutorial3_1Screen7()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -678,8 +702,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.layout to create LayoutModifier to measure with Constraints " +
                 "and place Placeables based on which order Modifier.layout is assigned.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_1Screen8()
+            Tutorial3_1Screen8()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -697,8 +720,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom layout using using layout, " +
                 "Measurable, Constraint, Placeable.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen()
+            Tutorial3_2Screen0()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -715,8 +737,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom layout using using layout, " +
                 "Measurable, Constraint, Placeable.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen1()
+            Tutorial3_2Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -733,8 +754,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Create custom layout using using MeasurePolicy " +
                 "and use intrinsic dimensions.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen2()
+            Tutorial3_2Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -755,8 +775,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "and observe how constraints" +
                 "effect dimensions of Placeables and parent Composable.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen3()
+            Tutorial3_2Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -774,8 +793,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 ", and change layout width out of Constraints bounds to observe how a Composable" +
                 " is laid out",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen4()
+            Tutorial3_2Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -792,8 +810,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Update default constraints with or out of bounds of original Constraints" +
                 ", and pass Constraints to content to change it's Constraints from size modifier",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen5()
+            Tutorial3_2Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -810,8 +827,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Inspect how Constraints and assigned width of a layout effects " +
                 "position of a sibling Composable",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen6()
+            Tutorial3_2Screen6()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -828,8 +844,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Observe how using infinite constraints incorrectly leads to" +
                 "exceptions.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen7()
+            Tutorial3_2Screen7()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -846,8 +861,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Measurable inside parent bounds by creating padding Modifiers " +
                 "with different variations",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen8()
+            Tutorial3_2Screen8()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -864,8 +878,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Constraints to measure measurables with Constraints.offset and " +
                 "Constraints.constrainWidth to limit maximum width or available.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen9()
+            Tutorial3_2Screen9()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -884,8 +897,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "Constraints.constrainWidth to limit maximum width or available " +
                 "space for Placeable.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_2Screen10()
+            Tutorial3_2Screen10()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -901,8 +913,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_3_1),
         description = "Add custom modifiers to Composable inside a custom layout using it's scope.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_3Screen1()
+            Tutorial3_3Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -924,8 +935,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "LayoutModifier is placed. This allows child LayoutModifier " +
                 "to adjust its own placement based on where the parent is.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_3Screen3()
+            Tutorial3_3Screen3()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -943,8 +953,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_3_4),
         description = "Use Modifier.onPlaced to observe alignment changes.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_3Screen4()
+            Tutorial3_3Screen4()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -962,8 +971,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_3_5),
         description = "Use Modifier.onPlaced to observe alignment animation.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_3Screen5()
+            Tutorial3_3Screen5()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -982,8 +990,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Use Modifier.layoutId to get a measurable, and use it to measure another" +
                 "measurable to match dimensions.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_4Screen()
+            Tutorial3_4Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1004,8 +1011,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "during the measurement as " +
                 "params for the composition of the children.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_5Screen()
+            Tutorial3_5Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1024,8 +1030,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "time and message read " +
                 "status layout right or bottom based on message width.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_6Screen1()
+            Tutorial3_6Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1043,8 +1048,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
                 "name tag resized to longest " +
                 "sibling using SubcomposeColumn from previous examples to have whole layout.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_6Screen2()
+            Tutorial3_6Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1061,8 +1065,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_7_1),
         description = "Examine how Composition and Layout phases are called on recomposition.",
         action = {
-            ComingSoonScreen()
-//            Tutorial3_7Screen1()
+            Tutorial3_7Screen1()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1080,7 +1083,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_7_2),
         description = "Examine how Composition and Layout phases are called on recomposition.",
         action = {
-            ComingSoonScreen()
+            Tutorial3_7Screen2()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1099,7 +1102,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         description = "Detect percentage of visibility of a Composable using Modifier.onPlaced " +
                 "inside Column with vertical scroll or LazyColumn.",
         action = {
-            ComingSoonScreen()
+            Tutorial3_9Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
@@ -1114,7 +1117,7 @@ fun createLayoutTutorialList(): List<TutorialSectionModel> {
         title = stringResource(R.string.title_3_10),
         description = "Detect position in parent and center an item while its parent is scrolled.",
         action = {
-            ComingSoonScreen()
+            Tutorial3_10Screen()
         },
         tags = listOf(
             TAG_COMPOSE,
